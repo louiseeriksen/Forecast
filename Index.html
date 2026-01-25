@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather Forecast</title>
   </head>
   <body>
@@ -26,14 +32,14 @@
       <main>
         <div class="current-weather">
           <div class="weather-details">
-            <h1>Paris</h1>
+            <h1 class="figTree">Paris</h1>
             <p>
               <span class="timeDay">Saturday 15:32</span>, moderate rain
               <br />
               Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
             </p>
           </div>
-          <div class="temperature">
+          <div class="temperature figTree">
             <span class="emoji">☀️</span> <strong id="degrees">14</strong
             ><span class="day-celsius">°C</span>
           </div>
@@ -41,43 +47,53 @@
       </main>
 
       <section>
-        <div class="sunday">
-          <div class="day">Sun</div>
-          <div class="emoji">🌥️</div>
-          <div class="day-celsius">
-            <span class="head-temp">21°</span><span>12°</span>
+        <div class="flexCut">
+          <div class="sunday">
+            <p class="day">Sun</p>
+            <div class="emoji">🌥️</div>
+            <div class="day-celsius">
+              <span class="head-temp">21°</span><span>12°</span>
+            </div>
           </div>
         </div>
 
-        <div class="monday">
-          <div class="day">Mon</div>
-          <div class="emoji">🌤️</div>
-          <div class="day-celsius">
-            <span class="head-temp">12°</span><span>11°</span>
+        <div class="flexCut">
+          <div class="monday">
+            <p class="day">Mon</p>
+            <div class="emoji">🌤️</div>
+            <div class="day-celsius">
+              <span class="head-temp">12°</span><span>11°</span>
+            </div>
           </div>
         </div>
 
-        <div class="tuesday">
-          <div class="day">Tue</div>
-          <div class="emoji">🌧️</div>
-          <div class="day-celsius">
-            <span class="head-temp">18°</span><span>12°</span>
+        <div class="flexCut">
+          <div class="tuesday">
+            <p class="day">Tue</p>
+            <div class="emoji">🌧️</div>
+            <div class="day-celsius">
+              <span class="head-temp">18°</span><span>12°</span>
+            </div>
           </div>
         </div>
 
-        <div class="wednesday">
-          <div class="day">Wed</div>
-          <div class="emoji">🌦️</div>
-          <div class="day-celsius">
-            <span class="head-temp">14°</span><span>13°</span>
+        <div class="flexCut">
+          <div class="wednesday">
+            <p class="day">Wed</p>
+            <div class="emoji">🌦️</div>
+            <div class="day-celsius">
+              <span class="head-temp">14°</span><span>13°</span>
+            </div>
           </div>
         </div>
 
-        <div class="thursday">
-          <div class="day">Thu</div>
-          <div class="emoji">☀️</div>
-          <div class="day-celsius">
-            <span class="head-temp">22°</span><span>19°</span>
+        <div class="flexCut">
+          <div class="thursday">
+            <p class="day">Thu</p>
+            <div class="emoji">☀️</div>
+            <div class="day-celsius">
+              <span class="head-temp">22°</span><span>19°</span>
+            </div>
           </div>
         </div>
       </section>

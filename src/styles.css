@@ -1,0 +1,192 @@
+body {
+  background: #a7b4f9;
+}
+
+/* Main Container */
+
+.container {
+  display: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 470px;
+  padding: 25px;
+  background: #e7e7ff;
+  box-shadow: 0px 10px 20px #3f1e214f;
+}
+
+.figTree {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #484be9;
+}
+
+/* Main Elements */
+
+a {
+  color: #545bbd;
+  text-decoration: none;
+  transition: 150ms ease-in-out;
+}
+
+a:hover {
+  color: #c743c7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 18px 0 0;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+}
+
+p {
+  color: #8485aa;
+  font-family: "Figtree", sans-serif;
+}
+
+main {
+  margin: 0 0 10px;
+}
+
+h1 {
+  color: #484be9;
+  font-size: 48px;
+  font-weight: 600px;
+  margin: 18px 0 5px 0px;
+}
+
+main p {
+  margin: 8px 0 21.44px;
+  line-height: 22px;
+}
+
+main p strong {
+  color: #1b217a;
+  font-weight: lighter;
+}
+
+input {
+  border: 0;
+  border-radius: 5px;
+  margin: 0;
+  padding: 12px 10px;
+}
+
+/* Classes for Main */
+
+.weather-details {
+  position: relative;
+  left: 6px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperature {
+  position: relative;
+  top: 25px;
+  right: 12px;
+}
+
+.temperature strong {
+  font-size: 70px;
+}
+
+.emoji {
+  font-size: 28px;
+  position: relative;
+  top: -12px;
+}
+
+.day-celsius {
+  position: relative;
+  top: -35px;
+
+  font-size: 15px;
+}
+
+/* Classes for Section */
+section .flexCut {
+  background: #eaecff;
+  box-shadow: 0 2px 10px 1px #67399225;
+  margin: 0px 8px 4px 8px;
+  padding: 8px 8px;
+  border-radius: 20px;
+  transition: ease-in-out 100ms;
+}
+
+section .flexCut:hover {
+  background: #9ab4eb;
+  cursor: default;
+}
+
+section .flexCut:hover p {
+  color: #373785;
+}
+section .flexCut:hover span {
+  color: #4949c9;
+}
+
+section .flexCut:hover .head-temp {
+  color: #13139e;
+}
+
+section span {
+  margin: 0 4px 0;
+}
+
+section .day-celsius {
+  position: relative;
+  top: -11px;
+  left: 1px;
+  font-weight: bold;
+  color: #867eff;
+}
+
+section .day-celsius .head-temp {
+  color: #423fff;
+}
+
+section .emoji {
+  font-size: 22px;
+  position: relative;
+  left: 16px;
+  top: -8px;
+  margin: 15px 0px;
+}
+
+section .day {
+  position: relative;
+  left: 15px;
+  color: #9c9c9c;
+}
+
+/* Classes for Forms */
+
+.input-city {
+  width: 325px;
+  background: #fff0f3;
+  box-shadow: 0 2px 5px 1px #6739921a;
+}
+
+.input-search {
+  background: #fcdf3d;
+  box-shadow: 0 2px 5px 1px #67399218;
+  padding: 12px 35px;
+}
