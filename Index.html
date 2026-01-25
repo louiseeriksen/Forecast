@@ -7,7 +7,97 @@
     <title>Weather Forecast</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="container">
+      <header>
+        <form id="city-form">
+          <input
+            id="city-input"
+            class="input-city"
+            type="text"
+            placeholder="Enter a city.."
+            required
+          />
+          <input class="input-search" type="submit" value="Search" />
+        </form>
+      </header>
+
+      <br />
+
+      <main>
+        <div class="current-weather">
+          <div class="weather-details">
+            <h1>Paris</h1>
+            <p>
+              <span class="timeDay">Saturday 15:32</span>, moderate rain
+              <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="temperature">
+            <span class="emoji">☀️</span> <strong id="degrees">14</strong
+            ><span class="day-celsius">°C</span>
+          </div>
+        </div>
+      </main>
+
+      <section>
+        <div class="sunday">
+          <div class="day">Sun</div>
+          <div class="emoji">🌥️</div>
+          <div class="day-celsius">
+            <span class="head-temp">21°</span><span>12°</span>
+          </div>
+        </div>
+
+        <div class="monday">
+          <div class="day">Mon</div>
+          <div class="emoji">🌤️</div>
+          <div class="day-celsius">
+            <span class="head-temp">12°</span><span>11°</span>
+          </div>
+        </div>
+
+        <div class="tuesday">
+          <div class="day">Tue</div>
+          <div class="emoji">🌧️</div>
+          <div class="day-celsius">
+            <span class="head-temp">18°</span><span>12°</span>
+          </div>
+        </div>
+
+        <div class="wednesday">
+          <div class="day">Wed</div>
+          <div class="emoji">🌦️</div>
+          <div class="day-celsius">
+            <span class="head-temp">14°</span><span>13°</span>
+          </div>
+        </div>
+
+        <div class="thursday">
+          <div class="day">Thu</div>
+          <div class="emoji">☀️</div>
+          <div class="day-celsius">
+            <span class="head-temp">22°</span><span>19°</span>
+          </div>
+        </div>
+      </section>
+
+      <br />
+
+      <footer>
+        <p>
+          This project was coded by
+          <a
+            href="https://www.shecodes.io/graduates/175416-louise-eriksen"
+            target="_blank"
+            >Louise Eriksen</a
+          >
+          and is <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+
     <script src="src/script.js"></script>
   </body>
 </html>
