@@ -46,6 +46,7 @@ footer {
   text-align: center;
   font-size: 14px;
   margin: 18px 0 0;
+  cursor: default;
 }
 
 header {
@@ -59,7 +60,8 @@ p {
 }
 
 main {
-  margin: 0 0 10px;
+  margin: 0 6px 10px;
+  cursor: default;
 }
 
 h1 {
@@ -117,7 +119,6 @@ input {
 .day-celsius {
   position: relative;
   top: -35px;
-
   font-size: 15px;
 }
 
@@ -186,7 +187,7 @@ section .day {
 }
 
 .input-search {
-  background: #fcdf3d;
+  background: #fce041;
   box-shadow: 0 2px 5px 1px #67399218;
   padding: 12px 35px;
 }

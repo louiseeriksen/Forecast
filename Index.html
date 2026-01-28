@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
     <title>Weather Forecast</title>
   </head>
   <body>
@@ -36,7 +37,8 @@
             <p>
               <span class="timeDay">Saturday 15:32</span>, moderate rain
               <br />
-              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+              Humidity: <strong id="humidity">87</strong>%, Wind:
+              <strong class="wind">7.2</strong>km/h
             </p>
           </div>
           <div class="temperature figTree">
@@ -116,6 +118,6 @@
       </footer>
     </div>
 
-    <script src="src/script.js"></script>
+    <script src="src/app.js"></script>
   </body>
 </html>
