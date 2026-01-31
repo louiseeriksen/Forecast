@@ -66,7 +66,7 @@ main {
 
 h1 {
   color: #484be9;
-  font-size: 48px;
+  font-size: 300%;
   font-weight: 600px;
   margin: 18px 0 5px 0px;
 }
@@ -102,12 +102,14 @@ input {
 
 .temperature {
   position: relative;
-  top: 25px;
+  top: 24px;
   right: 12px;
+  padding: 3px;
+  margin: 6px 0 55px;
 }
 
 .temperature strong {
-  font-size: 70px;
+  font-size: 400%;
 }
 
 .emoji {
