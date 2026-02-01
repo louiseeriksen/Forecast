@@ -10,6 +10,17 @@ function changeDisplay(response) {
   temperature.innerHTML = Math.round(response.data.temperature.current);
   humidity.innerHTML = `${response.data.temperature.humidity}%`;
   wind.innerHTML = `${Math.round(response.data.wind.speed * 10) / 10}km/h`;
+
+  let inputSplit = response.data.city.split(``);
+  console.log(inputSplit);
+  let inputLetterCount = inputSplit.length;
+  console.log(inputLetterCount);
+
+  if (inputLetterCount >= 10) {
+    h1.classList.add(`smallerFont`);
+  } else {
+    h1.classList.remove(`smallerFont`);
+  }
 }
 
 function userSubmit(event) {

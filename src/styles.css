@@ -22,6 +22,10 @@ body {
   color: #484be9;
 }
 
+.smallerFont {
+  font-size: 40px;
+}
+
 /* Main Elements */
 
 a {
