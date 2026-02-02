@@ -24,7 +24,11 @@ body {
 }
 
 .smallerFont {
-  font-size: 250%;
+  font-size: 240%;
+}
+
+.smallestFont {
+  font-size: 200%;
 }
 
 /* Main Elements */
@@ -111,10 +115,10 @@ input {
   font-size: 400%;
 }
 
-.emoji {
-  font-size: 28px;
+.mainEmoji {
   position: relative;
-  top: -12px;
+  top: 22px;
+  width: 100px;
 }
 
 .day-celsius {
@@ -144,27 +148,30 @@ section .forecast-day {
   padding: 0;
 }
 
-section .emoji {
-  font-size: 22px;
+.emoji {
   position: relative;
   top: -8px;
   left: 2px;
-  margin: 14px 14px;
+  margin: 8px;
+  width: 44px;
 }
 
-section .forecast-temperature {
+section .forecast-temperatures {
+  width: min-content;
   position: relative;
   top: -11px;
-  left: 1px;
+  left: 0px;
+  margin: 0 auto;
   font-weight: bold;
   color: #867eff;
 }
 
-section span {
-  margin: 0 4px 0;
+section .temp-min {
+  margin: 0 0 0 4px;
 }
 
-section .head-temp {
+section .temp-max {
+  margin: 0 4px 0 0;
   color: #423fff;
 }
 
